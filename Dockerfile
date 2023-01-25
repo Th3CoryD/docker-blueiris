@@ -18,7 +18,6 @@ ENV LANGUAGE en_US.UTF-8
 RUN apt-get update &&  apt-get -y install xvfb x11vnc xdotool wget supervisor cabextract websockify net-tools
 
 ENV WINEPREFIX /root/prefix32
-ENV WINEARCH win32
 ENV DISPLAY :0
 
 # Install wine
